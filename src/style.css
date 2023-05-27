@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10px;
+}
+
+.navbar-container{
+    display: flex;
+    gap: 15px;
+}
+
+hr{
+    width: 2000px;
+    margin-left: -110px;
+    border: 0.5px solid gray;
+}
+
+.sign-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-content: start;
+    margin: 6% 8%;
+    gap: 15px;
+}
+
+.sign-container input{
+    width: 60%;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 4px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.sign-container input:focus{
+    outline: none;
+}
+
+.sign-container button{
+    width: 15%;
+    padding: 8px 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+}
+
+.profile-container{
+    margin: 6% 8%;
+}
+
+.profile-container button{
+    width: 15%;
+    padding: 8px 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+}
